@@ -1,10 +1,10 @@
 package com.nicolaswinsten.peerscalajs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.{JSGlobal, JSImport}
+import scala.scalajs.js.annotation.JSGlobal
 
 @js.native
-@JSImport("peerjs.min.js", JSImport.Default)
+@JSGlobal("peerjs.util")
 object util extends js.Object {
   def browser: String = js.native
   def supports: Supports = js.native

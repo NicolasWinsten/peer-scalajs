@@ -3,10 +3,10 @@ package com.nicolaswinsten.peerscalajs
 import org.scalajs.dom.experimental.mediastream.MediaStream
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.{JSGlobal, JSImport}
+import scala.scalajs.js.annotation.JSGlobal
 
 @js.native
-@JSImport("peerjs.min.js", JSImport.Default)
+@JSGlobal
 class MediaConnection extends js.Object {
   def answer(stream: MediaStream, options: js.Object): Unit = js.native
   def close(): Unit                                         = js.native

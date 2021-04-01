@@ -1,10 +1,10 @@
 package com.nicolaswinsten.peerscalajs
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.{JSGlobal, JSImport}
+import scala.scalajs.js.annotation.JSGlobal
 
 @js.native
-@JSImport("peerjs.min.js", JSImport.Default)
+@JSGlobal
 class DataConnection extends js.Object {
   def send(data: js.Any): Unit                        = js.native
   def close(): Unit                                   = js.native

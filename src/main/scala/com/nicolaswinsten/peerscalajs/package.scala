@@ -4,7 +4,6 @@ import org.scalajs.dom.experimental.mediastream.MediaStream
 
 import scala.scalajs.js
 
-
 /**
  * Implicits providing quality of life methods on Peer, DataConnection, and MediaConnection
  */
